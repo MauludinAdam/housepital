@@ -1,0 +1,350 @@
+CRITICAL - 2023-07-11 13:41:07 --> Undefined array key "alamat_dok"
+in APPPATH\Views\dokter\index.php on line 29.
+ 1 APPPATH\Views\dokter\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat_dok"', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\dokter\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\dokter\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 5 APPPATH\Controllers\Dokter.php(25): view('dokter/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 13:59:45 --> Invalid file: "dokter/pasien.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/pasien.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/pasien', [], true)
+ 3 APPPATH\Controllers\Dokter.php(31): view('dokter/pasien', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->pasien()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:00:16 --> Invalid file: "dokter/pasien.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/pasien.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/pasien', [], true)
+ 3 APPPATH\Controllers\Dokter.php(31): view('dokter/pasien', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->pasien()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:00:17 --> Invalid file: "dokter/pasien.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/pasien.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/pasien', [], true)
+ 3 APPPATH\Controllers\Dokter.php(31): view('dokter/pasien', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->pasien()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:00:30 --> Invalid file: "dokter/pasien.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/pasien.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/pasien', [], true)
+ 3 APPPATH\Controllers\Dokter.php(31): view('dokter/pasien', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->pasien()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:00:35 --> Invalid file: "dokter/obat.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/obat.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/obat', [], true)
+ 3 APPPATH\Controllers\Dokter.php(40): view('dokter/obat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->obat()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:09:53 --> Invalid file: "pages/dokter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dokter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/dokter', [], true)
+ 3 APPPATH\Controllers\Pages.php(12): view('pages/dokter', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:10:09 --> Invalid file: "pages/dokter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dokter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/dokter', [], true)
+ 3 APPPATH\Controllers\Pages.php(12): view('pages/dokter', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:12:33 --> Invalid file: "dokter/obat.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/obat.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/obat', [], true)
+ 3 APPPATH\Controllers\Dokter.php(40): view('dokter/obat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->obat()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:14:20 --> Invalid file: "housepital/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('housepital/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/index', [], true)
+ 3 APPPATH\Controllers\Housepital.php(23): view('housepital/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:14:41 --> Invalid file: "housepital/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('housepital/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/index', [], true)
+ 3 APPPATH\Controllers\Housepital.php(23): view('housepital/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:26:10 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:27:09 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:27:15 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:30:05 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:30:11 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:30:42 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:30:48 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:31:17 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:34:11 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+CRITICAL - 2023-07-11 14:34:17 --> Undefined variable $dokter
+in APPPATH\Views\housepital\dokter.php on line 23.
+ 1 APPPATH\Views\housepital\dokter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokter', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\housepital\\dokter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/housepital/dokter', [], true)
+ 5 APPPATH\Controllers\Housepital.php(32): view('/housepital/dokter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+INFO - 2023-07-11 15:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:27:05 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/create_dokter', [], true)
+ 6 APPPATH\Controllers\Housepital.php(66): view('housepital/create_dokter')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+INFO - 2023-07-11 16:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:27:34 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/create_dokter', [], true)
+ 6 APPPATH\Controllers\Housepital.php(66): view('housepital/create_dokter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+INFO - 2023-07-11 16:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:27:37 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/create_dokter', [], true)
+ 6 APPPATH\Controllers\Housepital.php(66): view('housepital/create_dokter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+INFO - 2023-07-11 16:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 16:27:41 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 14.
+ 1 APPPATH\Views\layout\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\housepital\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('housepital/create_dokter', [], true)
+ 6 APPPATH\Controllers\Housepital.php(66): view('housepital/create_dokter', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Housepital->create_dokter()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Housepital))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\housepital\\public\\index.php')
+INFO - 2023-07-11 16:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 16:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

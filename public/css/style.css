@@ -1,0 +1,102 @@
+
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+.warna{
+    background-color: #6697a7;
+    height: 50px;
+}
+
+.kanan{
+    position: relative;
+    display: flex;
+   justify-content: right;
+    bottom: 26px;
+}
+
+.logo{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+    justify-content: left;
+}
+
+body{
+    background-color: #F7FFE5;
+}
+
+.navbar{
+   height: 50px;
+}
+
+.navbar a{
+    display: flex;
+    color: #666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px;
+    padding: 3px;
+    border: 1px solid #6697a7;
+    border-radius: 3rem;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.navbar a:hover{
+    background: #6697a7;
+    color: #fff;
+    box-shadow: 0 3px rgba(22, 34, 13, 0.3);
+}
+
+.posisi{
+    display: flex;
+    right: 100%;
+    top: 0;
+    left: 0;
+}
+
+.row .posisi a{
+    right: 100%;
+}
+
+marquee .berjalan{
+    font-weight: bolder;
+    color: #6697a7;
+}
+
+form{
+    position: relative;
+    left: 50%;
+    border: 1px solid #C4D7B2;
+    color: #666;
+    font-weight: 600;
+    border-radius: .5rem;
+    box-shadow: 1px rgba(0,0,0,.1);
+    margin: 5px;
+    padding: 15px;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+table tr{
+    font-size: 16px;
+}
+
+h2{
+    position: relative;
+    left: 65%;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+
+}
+
+b{
+    position: relative;
+    left: 50%;
+    font-weight: 700;
+    justify-content: center;
+}

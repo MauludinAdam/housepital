@@ -1,0 +1,70 @@
+CRITICAL - 2023-07-07 14:13:11 --> Invalid file: "/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('/')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:26 --> Invalid file: "/dokter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dokter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/dokter', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('/dokter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:42 --> Invalid file: "dokter/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('dokter/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:43 --> Invalid file: "dokter/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('dokter/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:44 --> Invalid file: "dokter/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('dokter/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:44 --> Invalid file: "dokter/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('dokter/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-07-07 14:13:45 --> Invalid file: "dokter/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dokter/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dokter/index', [], true)
+ 3 APPPATH\Controllers\Dokter.php(9): view('dokter/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dokter->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')

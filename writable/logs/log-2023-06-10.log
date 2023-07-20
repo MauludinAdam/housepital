@@ -1,0 +1,57 @@
+CRITICAL - 2023-06-10 07:01:12 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Komik.php on line 18.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('komik')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('komik')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('komik')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-06-10 16:02:16 --> Call to undefined method App\Models\KomikModel::getKomik
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Komik.php(32): CodeIgniter\Model->__call('getKomik', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Komik->detail('naruto')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-06-10 16:04:38 --> Call to undefined method App\Models\KomikModel::getKomik
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Komik.php(32): CodeIgniter\Model->__call('getKomik', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Komik->detail('naruto')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-06-10 16:09:35 --> Call to undefined method App\Models\KomikModel::getKomik
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Komik.php(32): CodeIgniter\Model->__call('getKomik', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Komik->detail('naruto')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-06-10 23:55:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4api\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4api\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(36): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Komik->detail('img.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
+CRITICAL - 2023-06-10 23:55:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4api\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4api\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(36): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Komik->detail('step.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4api\\public\\index.php')
